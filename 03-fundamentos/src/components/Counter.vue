@@ -2,7 +2,7 @@
     <h2>{{customTitle}}</h2>
     <p>{{this.counter}} <sup>2</sup> = {{squereCounter}}</p>
 
-    <div>
+    <div class="botones-conta">
         <button @:click="increase">+1</button>
         <button @:click="decrease">-1</button>
 
